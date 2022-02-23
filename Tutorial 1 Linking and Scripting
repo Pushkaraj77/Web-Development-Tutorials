@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html,html tuts,new teacher">
+    <!--this meta tag can be used to set tags to increase traffic-->
+    <meta name="robots" content="INDEX,FOLLOW">
+    <!--robots is used when we want people to direct on our site , we if 
+    dont want to display our site on the search we write NOINDEX,NOFOLLOW-->
+    <link rel="stylesheet" href="push.css">
+    <!--this links external css-->
+    <script src="push.js"></script>
+    <!-- this links js or other scripts -->
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
