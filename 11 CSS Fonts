@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <!-- this link is taken from google fonts to add in site, these fonts hich need to be added are called web fonts and fonts that are preinstalled on system are called web safe fonts -->
+    <style>
+        p{
+            font-family: 'Mochiy Pop P One','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* font family is used to give fonts, when many fonts are given it is called font stack
+             priority is from left to right*/
+            font-size: 33px; /* 1/96th of an inch */
+            /* changes size of font  */
+            line-height: 1.3em; 
+            /* changes distance between the lines like br tag in html  */
+        }
+
+        span{
+            font-weight: bold;
+            /* changes weight of font  */
+            font-style: italic;
+            /* changes basic style of the font  */
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS fonts Tutorial</h3>
+    <p>Lets play with <span>fonts</span>. It is very exciting</p>
+</body>
+</html>
