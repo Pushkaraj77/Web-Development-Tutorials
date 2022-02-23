@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading paragraphs and Emmet</title>
+</head>
+<body>
+    <h1>Pushkaraj</h1>
+    <h2>Pushkaraj</h2>
+    <h3>Pushkaraj</h3>
+    <h4>Pushkaraj</h4>
+    <h5>Pushkaraj</h5>
+    <h6>Pushkaraj</h6>
+    <!-- Can take upto 6 headings with various size -->
+    <p>This is Pushkaraj</p>
+    <p>this is a new paragraph</p>
+    <hr>
+    <!-- hr inserts a line below our paragraph -->
+    <p>Lorem ipsum dolor sit amet, <strong>this is strong</strong> adipisicing elit. Voluptate sequi mollitia <em>This is emphasised</em> illo sint velit, aliquam soluta harum iure nemo minus.</p>
+    <!-- use lorem 4 to write random things , use toggle wrap to prevent text from going out-->
+    <p>new <br> this is a new line</p>
+    <!-- br means line breal or new line,you can add as many br as you want  -->
+    <p>Lorem ipsum dolor <b>bold is here but use strong instead </b>sit amet consectetur adipisicing elit. Odio eligendi <i>this is italic but use em  </i>impedit quia nobis molestias repellendus ea veritatis delectus maiores! Accusantium eveniet autem sunt delectus quidem quibusdam aliquam id neque ab.</p>
+    <p>q</p>
+    <p>w</p>
+    <p>e</p>
+    <p>r</p>
+    <!-- If you write p*4 or any emmet it will multiply it with that no. -->
+    <!-- ctrl + enter to jump into new line -->
+</body>
+</html>
