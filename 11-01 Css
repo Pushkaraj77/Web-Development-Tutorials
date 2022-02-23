@@ -1,0 +1,38 @@
+/* Element selector */
+p{
+    color: deeppink;
+    background-color: black;
+    border: 5px solid greenyellow;
+}
+
+/* element selectors identify the emmet - in this case the p for paragraph
+and apply the style to all the lines with element p in them */
+
+/* Id selectors */
+
+#idselec{
+    color: orangered;
+    background-color: blueviolet;
+    border: 5px solid crimson;
+}
+
+/* id selectors take an id in the # tag and apply the style to that id  */
+
+/* class selectors */
+
+.claselec{
+    color: rgb(140, 255, 0);
+    background-color: darkgrey;
+    border: 5px solid salmon;
+}
+
+/* class selectors define a class and apply the style to all the ids that belong to
+that class */
+
+/* grouping selectors */
+
+footer,span{
+    background-color: skyblue;
+}
+
+/* grouping selectors take many elements/ids/classes and apply the style to the whole group */
