@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Tutorial</title>
+    <style>
+        
+        .container{
+            height: 544px ;
+            width: 100%;
+            border: 2px solid black;
+            /* intialize the container as flex box  */
+            display: flex;
+
+            /* properties for flex container  */
+            /* flex-direction: row; */
+            /* Default direction for elements to float on  */
+            /* flex-direction: column; */
+            /* direction of elements becomes as a column  */
+            /* flex-direction: row-reverse; */
+            /* row starts from right side of the page  */
+
+            flex-wrap: wrap;
+            /* wraps the content and makes it responsive, default value is no wrap */
+            /* flex-wrap: wrap-reverse; */
+            /* reverse wraps the content and makes it responsive */
+
+            /* flex-flow: row-reverse wrap; */
+            /* used to save no. of lines of code by giving multiple properties basically a shorthand for direction and wrap */
+
+            /* justify-content: center; */
+            /* brings content to the center of the page  */
+            /* justify-content: space-between; */
+            /* puts space between the content but no space to the end sides  */
+            /* justify-content: space-evenly; */
+            /* gives even spaces between as well as to the end sides  */
+            /* justify-content: space-around; */
+            /* gives individual spaces to both  sides of eac content  */
+
+            /* align-items: center; */
+            /* vertically centers the content  */
+            /* align-items: flex-end; */
+            /* aligns content to the end of the flex sheet  */
+            /* align-items: flex-start; */
+            /* aligns content to the start of the flex sheet, it is default */
+            /* align-items: stretch; */
+            /* gives automatic space in columns MUST use wrap with it  */
+
+        }
+
+        .itbox{
+            margin: 10px;
+            padding: 3px;
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 5px solid rgb(85, 3, 101);
+            
+        }
+
+        /* #item1{ */
+            /* Flex properties for ids  */
+            /* order: 2; */
+            /* higher order id will take the last postion */
+            /* flex-basis: 300px; */
+            /* controls a particular property depending on flex-direction: ; */
+            /* when flex-direction: is set to rows; basis controls width  */
+            /* when flex-direction: is set to column; basis controls height */
+        /* } */
+
+        /* #item2{ */
+            /* flex-grow: 3; */
+            /* when content gets a chance to grow space is alotted according to the number */
+        /* } */
+
+        /* #item3{ */
+            /* flex-grow: 5; */
+            /* higher number gets more space  */
+            /* cannot have negative numbers */
+            /* flex-shrink: 6; */
+            /* opposite of grow if given a chance content shrinks the most */
+        /* } */
+
+        #item4{
+            flex: 2 2 200px; /* it is a shorthand for flex*/
+            /* flex: grow shrink basis; */
+            align-self: flex-start;
+            align-self: flex-end;
+            align-self: center;
+            /* align-self: is same as align items; */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is Flexbox Tutorial</h1>
+    <div class="container">
+        <div class="itbox" id="item1">First Box
+
+        </div>
+        <div class="itbox" id="item2">Second Box
+
+        </div>
+        <div class="itbox" id="item3">Third Box
+
+        </div>
+        <div class="itbox" id="item4">Fourth Box
+
+        </div>
+        <div class="itbox" id="item5">Fifth Box
+
+        </div>
+        <div class="itbox" id="item6">Sixth Box
+
+        </div>
+        
+    </div>
+</body>
+</html>
