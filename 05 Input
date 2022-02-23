@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>This is tut 5 for Form tag</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <!-- form is used to get input from user, in action write which
+        backend script you want the data to go into -->
+        <div>
+            Name :<input type="text" name="myName" id="name">
+            <!-- various types of input can be taken, label and id go together, for touch response -->
+        </div>
+        <br>
+        <div>
+            Role :<input type="text" name="myRole">
+        </div>
+        <br>
+        <!-- div is used to divide line,
+            br is not recommended as we can do it in css -->
+        <div>
+            Email : <input type="email" name="MyEmail">
+            <!-- name is the key from which backend will identify the attribute -->
+        </div>
+        <br>
+        <div>
+            Date : <input type="date" name="myDate">
+            <!-- makes date input on page -->
+        </div>
+        <br>
+        <div>
+            Bonus : <input type="number" name="myBonus">
+            <!-- gives number input -->
+        </div>
+        <br>
+        <div>
+            Are you eligible? : <input type="checkbox" name="myEligibility" checked>
+            <!-- checkbox gives a tick option, if you add checked it checks by default -->
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="myGender">
+            Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+            <!-- radio gives a circular mark option -->
+        </div>
+        <br>
+        <div>
+            <textarea name="Write about yourself" cols="30" rows="10"></textarea>
+            <!-- text area provides a box to write in  -->
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <!-- select tag adds a choice input -->
+                <option value="Swift">Swift</option>
+                <option value="Eon"selected>Eon</option>
+                <!-- these are options in the select list -->
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
