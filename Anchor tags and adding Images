@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://google.com"target ="_blank">Go to google</a><br>
+    <a href="https://facebook.com"target ="_blank">Go to facebook</a><br>
+    <!-- a is known as anker tag -->
+    <!-- Used to open links on a page -->
+    <!-- target="_blank" makes the links open in a new tab -->
+    <a href="/web devep/tut2.html"target="_blank">tut2</a>
+    <!-- This is how we link other pages with main html page -->
+
+    <img src="push.jpg" alt="error loading image">
+    <!-- This is how we add an img to the page, if image is not there it shows alt text -->
+    <hr>
+    <img src="https://picsum.photos/1700/750" alt="remote image"width="200" height="200">
+    <!-- image taken from Picsum -->
+    <!-- You can set the widthand height here but it is recommended to do it in css -->
+</body>
+</html>
