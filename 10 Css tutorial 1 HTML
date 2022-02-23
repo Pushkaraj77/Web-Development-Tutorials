@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <style>
+        p{
+            color: darkblue;
+            background-color: greenyellow;
+        }
+    </style>
+    <!-- the style is used in the head of the plate to inlcude Internal CSS -->
+    <link rel="stylesheet" href="css1tut10.css">
+    <!-- link is used to patch external CSS into html  -->
+</head>
+<body>
+    <h3>This is CSS Tutorial</h3>
+    <p>This Tutorial will teach you everything you need to know about HTML/CSS </p>
+    <p>There are 3 types of CSS</p>
+    <p style="color: rgb(123, 8, 238); background-color: cyan;">First is Inline CSS</p>
+     <!-- This is how we put a css property in a specifc line -->
+    <p>Second is Internal CSS</p>
+    <!-- Internal CSS is added by using style keyword in head of html  -->
+    <p>And the Third one is External CSS</p>
+    <!-- External CSS is added by the link keyword  -->
+    <!-- Order of priority of the css types is 
+     Inline > External > Internal  -->
+</body>
+</html>
