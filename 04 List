@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul type="square">
+        <li>First item in unordered list</li>
+        <li>second item in unordered list</li>
+            <ul>
+                <li>This an item in 2 list</li>
+            </ul>
+        <li>third item in unordered list</li>
+        <li>Fourth item in unordered list</li>
+    </ul>
+    <!-- ul means unordered list, bullets can be changed into disc, circle and square using type -->
+    <ol type="i">
+        <li>First in ordered list</li>
+        <li>Second in ordered list</li>
+        <li>third in ordered list</li>
+        <li>Fourth in ordered list</li>
+    </ol>
+    <!-- ol means ordered list, you can change numbering type using type function
+    options include A - big alphs, a - small alphs, 1 - numbers , I - roman nos., i - small romans -->
+    <!-- Tables -->
+    <h3>HTML TABLES</h3>
+    <table>
+        <thead>
+            <tr> <!-- tr is used to denote rows-->
+                <th>First Row</th>
+                <!-- th means heading of the row -->
+                <th>Second Row</th>
+                <th>Third Row</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pushkaraj</td>
+                <!-- td means content in the row -->
+                <td>Comp engg</td>
+                <td>First year</td>
+            </tr>
+            <tr>
+                <td>Ayush</td>
+                <td>Comp engg</td>
+                <td>First year</td>
+            </tr>
+            <tr>
+                <td>Amaan</td>
+                <td>Comp engg</td>
+                <td>First year</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Be sure to add thead and tbody tags when you make a table tag -->
+</body>
+</html>
